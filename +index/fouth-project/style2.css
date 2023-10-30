@@ -1,0 +1,54 @@
+@media all and (max-width:420px){
+    .container{
+        max-width: none;
+        padding: 0px 5px;
+
+    }
+    .header__content-logo img{
+        height: 30px;
+
+    }
+    .header__nav-btn{
+        padding: 7px 15px;
+        font-style: 12px;
+       
+
+    }
+    .intro__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__nav-link{
+        margin: 0px 5px;
+        font-style: 14px;
+
+    }
+    .intro__content-img{
+        width: 338px;
+        height: 358px;
+        object-fit: cover;
+    }
+    .intro__content-title{
+        margin-top: 20px;
+        font-style: 22px;
+    }
+    .inro__info-text{
+        font-style: 12px;
+    }
+    .intro__info-title{
+        margin
+    }
+    
+.partners__
+}
+@media all (min-width:480px) and (max-width:768px){
+    .container{
+        max-width: none;
+        padding: 0px 20px;
+
+    }
+    
+    .intro__info-title{
+        
+    }
+}

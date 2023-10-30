@@ -1,0 +1,95 @@
+.block{
+    width: 150px;
+    height: 150px;
+transition: all 0.3s ease-in-out;
+}
+.block-translate{
+    background: teal;
+   /* transform: translate(100px, 300px);*/
+    position: relative;
+    left: 50%;
+    transform: translateX(-45%);
+
+}
+.block-scale{
+    background: orange;
+    transform: scale(1,1);
+
+}
+.block-scale:hover{
+    transform: scale(2);
+    display: flex;
+    text-align: end;
+}
+.block-rotate:hover{
+    transform: rotate(48deg);
+}
+.block-rotate{
+    background: blue;
+}
+.block-skew{
+    background-color: aqua;
+    transform:skew(1deg)
+}
+.block2d{
+    background: red;
+    transform: matrix(a 25px);
+}
+.block3d{
+    perspective: 400px;
+}
+.block3d-translate{
+    transform: translate3d(10px, 20px.40px);
+    background-color: yellow;
+    transition: 0.4s ease-out;
+}
+.block3d-translate:hover{
+    transform:translate3d(1.5, ) ;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: teal;
+
+    animation-name: box-to-right;
+    animation-duration: 3s;
+animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes box-to-right{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+.fist{
+transition: all 5s ;
+animation-name: fixt;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-delay: 1s;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+@keyframes fixt {
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(5);
+    }
+}

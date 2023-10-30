@@ -1,0 +1,32 @@
+ul{
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+    
+}
+.card{
+    width: 500px;
+    height: 500px;
+    background-color: grey  ;
+}
+@media all and (max-width:320px) {
+    ul{
+        flex-direction: column;
+
+    }
+    a{
+        font-style: 18px;
+    }
+
+    .card{
+        width: 300px;
+        height: 300px;x
+        border-radius: 18px;
+    }
+}
+@media all and (min-width:480px) and (max-width:600px){
+    .card{
+        background-color: red;
+
+    }
+}
